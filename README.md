@@ -2,7 +2,7 @@
 
 Using Dependabot for SCA testing and CodeQL for SAST testing.
 
-For Dependabot:
+### For Dependabot:
 
 - Under the Settings tab in the repository, navigate to Branches
 
