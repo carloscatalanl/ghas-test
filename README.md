@@ -13,3 +13,4 @@ Using Dependabot for SCA testing and CodeQL for SAST testing.
 ![Config branches](./doc/images/config-branch.png)
 
 ### For CodeQL
+
