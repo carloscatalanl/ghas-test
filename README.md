@@ -23,3 +23,20 @@ Using Dependabot for SCA testing and CodeQL for SAST testing.
 - Ad the CodeQL status check and save the rule
 
 ![Config branches](./doc/images/config-branch-codeql.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

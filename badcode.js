@@ -7,6 +7,15 @@ function endsWith(x,y) {
   
   }
 
-// Vulnerability code
 
 // console.log("SCA and SAST");
+
+
+
+
+
+
+
+
+
+
