@@ -1,7 +1,8 @@
-print("Dependabot for SCA testing")
-print("CodeQL for SAST testing")
+# print("Dependabot for SCA testing")
+# print("CodeQL for SAST testing")
 
-TEST_OAUTH_TOKEN = "dkedjekdjekldjekldje"
-TEST_OAUTH_SECRET = "dkejkdjekdjkejdkjekdjekjdkjed"
+import os
 
-AWS_CREDENTIALS = { 'key': 'djekjdkejde', 'secret': 'dncndmncdmncd' }
+directory = input("Enter the directory to list: ")
+command = f"ls {directory}"  # Vulnerable to Command Injection
+os.system(command)
