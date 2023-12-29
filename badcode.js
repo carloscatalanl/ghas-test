@@ -9,13 +9,3 @@ function endsWith(x,y) {
 
 
 // console.log("SCA and SAST");
-
-
-
-
-
-
-
-
-
-
