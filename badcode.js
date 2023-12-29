@@ -1,8 +1,10 @@
-// function endsWith(x,y) {
+// Vulnerability code
 
-//     let index = x.lastIndexOf(y);
-//     return x.lastIndexOf(y) === x.length - y.length;
+function endsWith(x,y) {
+
+    let index = x.lastIndexOf(y);
+    return x.lastIndexOf(y) === x.length - y.length;
   
-//   }
+  }
 
-console.log("SCA and SAST");
+// console.log("SCA and SAST");
