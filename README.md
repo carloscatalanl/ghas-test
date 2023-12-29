@@ -11,3 +11,5 @@ Using Dependabot for SCA testing and CodeQL for SAST testing.
 - Add the dependency review job as a status check "dependency-review" (.github/workflows/dependabot.yaml)
 
 ![Config branches](./doc/images/config-branch.png)
+
+### For CodeQL
