@@ -1,23 +1,7 @@
-import os
+print("Dependabot for SCA testing")
+print("CodeQL for SAST testing")
 
+TEST_OAUTH_TOKEN = "dkedjekdjekldjekldje"
+TEST_OAUTH_SECRET = "dkejkdjekdjkejdkjekdjekjdkjed"
 
-class ApiClient:
-
-    def __init__(self) -> None:
-        self.api_key = os.getenv("API_KEY")  # <-- dependency
-        self.timeout = int(os.getenv("TIMEOUT"))  # <-- dependency
-
-
-class Service:
-
-    def __init__(self) -> None:
-        self.api_client = ApiClient()  # <-- dependency
-
-
-def main() -> None:
-    service = Service()  # <-- dependency
-    ...
-
-
-if __name__ == "__main__":
-    main()
+AWS_CREDENTIALS = { 'key': 'djekjdkejde', 'secret': 'dncndmncdmncd' }
